@@ -16,7 +16,7 @@ export default function App() {
       playsInSilentModeIOS: true,
     });
   }, []);
-
+ 
   const startRecording = async () => {
     try {
       const { recording } = await Audio.Recording.createAsync(
